@@ -14,8 +14,6 @@ public class bubbleSort extends PApplet {
 
     public void settings(){
         size(500, 500);
-
-
     }
 
 
@@ -28,6 +26,7 @@ public class bubbleSort extends PApplet {
 
 
     public void draw(){
+
         delay(400);
         background(255);
 
@@ -55,10 +54,10 @@ public class bubbleSort extends PApplet {
                 rect(0,(float)(500-arr[0]*10),30,arr[0]*10);
             }
         }
-        for(int i=arr.length-1;i>=0;i--){
-        if(arr[i]==a[i]){
+        for(int i1=arr.length-1;i1>=0;i1--){
+        if(arr[i1]==a[i1]){
             fill(R,G,255);
-            rect(50*(i),(float) (500-arr[i]*10),30,arr[i]*10);
+            rect(50*(i1),(float) (500-arr[i1]*10),30,arr[i1]*10);
              }
         }
 
@@ -66,7 +65,6 @@ public class bubbleSort extends PApplet {
 
 
             }
-
 
 
 
